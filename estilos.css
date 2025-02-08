@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos al header */
+.header{
+    height:40vh;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/img-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glass{
+    height: 40%;
+    width: 70%;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass p{
+    font-size: 1rem;
+    color: black;
+}
+
+/* Estilos al contenido */
+.monumento1{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #faedcd;
+}
+
+.monumento1-img img{
+    width: 350px;
+    height: 300px;
+}
+
+.monumento1-info{
+    margin-top: 20px;
+}
+
+.monumento1-info h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.monumento1-info p{
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px;
+}
+
+.monumento2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #d4a373;
+}
+
+.monumento2-img img{
+    width: 350px;
+    height: 300px;
+}
+
+.monumento2-info{
+    margin-top: 20px;
+}
+
+.monumento2-info h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.monumento2-info p{
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px;
+}
+
+.monumentosFila{
+    display: flex;
+    flex-direction: row;   
+    background-color: #f2e9e4;
+}
+
+.monumentosFila .text-align{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.monumento3{
+width: 33%;
+margin: 15px;
+display: flex ;
+justify-content: center;
+flex-direction: column;
+background-color: #faedcd;
+border-radius: 20px;
+border:1px solid black;
+}
+
+.monumento3 img{
+    width: 300px;
+    height:190px;
+    object-fit: cover;
+}
+
+.monumento3-img {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.monumento3 h2{
+    text-align: center;
+}
+
+.monumento4{
+    width: 33%;
+    margin: 15px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d4a373;
+    border-radius: 20px;
+    border:1px solid black;
+}
+
+.monumento4 img{
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.monumento4-img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+    
+.monumento4 h2{
+    text-align: center;
+}
+
+.monumento5{
+    width: 33%;
+    margin: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #faedcd;
+    border-radius: 20px;
+    border:1px solid black;
+}
+
+.monumento5 img{
+    width: 348px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.monumento5-img {
+    width: 400px;
+    height: 190px;
+    position: relative;
+    left: 25px;
+}
+    
+.monumento5 h2{
+    text-align: center;
+}
+
+.footer{
+    height: 5vh;
+    background-color:#e5e5e5;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+@media screen and (max-width: 768px){
+    .monumento1{
+        flex-direction: column;
+    }
+
+    .monumento1-img img{
+        width: 395px;
+        height: 250px;
+    }
+
+    .monumento2{
+        flex-direction: column;
+    }
+
+    .monumento2-img img{
+        width: 395px;
+        height: 250px;
+    }
+
+    .monumentosFila{
+        flex-direction: column;
+    }
+
+    .monumento3{
+        width: 90%;
+    }
+
+    .monumento4{
+        width: 90%;
+    }
+
+    .monumento5{
+        width: 90%;
+    }
+    
+}
